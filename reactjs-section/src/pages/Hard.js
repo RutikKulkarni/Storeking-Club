@@ -2,9 +2,9 @@ import React, { useState, useEffect } from "react";
 
 export default function Hard() {
   const products = [
-    { id: 1, name: "Laptop", price: 80000 },
-    { id: 2, name: "Phone", price: 30000 },
-    { id: 3, name: "TV", price: 100000 },
+    { id: 1, name: "Apple", price: 80, description: "This is red apple" },
+    { id: 2, name: "Banana", price: 40, description: "This is yellow banana" },
+    { id: 3, name: "Cherry", price: 70, description: "this is red cherries" },
   ];
 
   const [cart, setCart] = useState([]);

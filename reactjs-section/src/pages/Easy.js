@@ -1,8 +1,8 @@
 import React from "react";
 
 export default function Easy() {
-  const name = "Sample Product";
-  const price = 9.99;
+  const name = "Apple";
+  const price = 80;
 
   return (
     <div>
